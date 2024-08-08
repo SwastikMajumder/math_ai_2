@@ -212,9 +212,9 @@ def replace(equation, find, r):
   for child in equation.children:
     col.children.append(replace(child, find, r))
   return col
-import math_parser_1
+import math_parser
 while True:
-    eq = math_parser_1.take_input(input(">>> "))
+    eq = math_parser.take_input(input(">>> "))
     init = eq
     #print(eq)
     for _ in range(3):
